@@ -1,0 +1,7 @@
+POST http://127.0.0.1:8000/api/noticias_eliminar/
+Authorization: Token 7939d2aefc22439bbf16da778c2c2628
+Content-Type: application/json
+
+{
+    "id": 1
+}
