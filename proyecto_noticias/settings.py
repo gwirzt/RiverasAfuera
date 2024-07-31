@@ -76,19 +76,13 @@ WSGI_APPLICATION = 'proyecto_noticias.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'mssql',
-        'NAME': 'riverasAfuera',
-        'USER': 'sa',
-        'PASSWORD': 'Nacion1846',
-        'HOST': '192.168.0.3',
-        'PORT': '',  # Usualmente el puerto predeterminado es 1433, puedes dejarlo vacío
-        'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
-        },
-    }
-}
+try:
+    from .db_config import DATABASES
+except ImportError:
+    # Si no se puede importar, usar una configuración predeterminada o lanzar un error
+    DATABASES = {}
+    raise ImportError(
+        "No se pudo importar la configuración de la base de datos. Asegúrate de que db_config.py existe y está configurado correctamente.")
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
