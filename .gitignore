@@ -1,0 +1,65 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Compilados de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos y directorios de Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de paquetes
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+
+# Archivos de configuración de test
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de configuración de distribución
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuración de instalación de dependencias
+poetry.lock
+
+# Archivos de configuración de Docker
+docker-compose.yml
+Dockerfile
+
+# Archivos de configuración de Python
+Pipfile
+Pipfile.lock

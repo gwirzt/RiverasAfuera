@@ -3,6 +3,12 @@ Authorization: Token 7939d2aefc22439bbf16da778c2c2628
 Content-Type: application/json
 
 {
-    "titulo": "Segunda Noticia",
-    "contenido": "Nuevo contenido de la noticia"
+    "titulo": "Hábilmente, el tero le sacó el nido al halcón",
+    "contenido": "En una sorprendente demostración de astucia y estrategia, un tero ha logrado desplazar a un halcón de su propio nido en la Reserva Natural de La Pampa. El halcón, conocido por su destreza y poderío en el aire, fue superado por el ingenio del tero, quien cuidadosamente planificó su incursión.\n\nTestigos del curioso evento afirman que el tero utilizó una serie de maniobras distractoras para alejar al halcón de su nido. Mientras el halcón investigaba el área circundante, el tero rápidamente se instaló en el nido, tomando posesión del mismo.\n\nExpertos en comportamiento animal han destacado la inteligencia del tero para adaptarse a situaciones difíciles, señalando que estos pájaros son conocidos por su capacidad para proteger sus propios territorios de amenazas externas. 'Es un recordatorio de que a veces la inteligencia puede superar la fuerza bruta', comentó María González, bióloga de la reserva.",
+    "conclusion": "Este inusual acontecimiento ha capturado la atención de observadores de aves y entusiastas de la naturaleza, resaltando las fascinantes dinámicas del reino animal. La hazaña del tero es un testimonio de la diversidad y complejidad de las estrategias de supervivencia en el mundo natural.",
+    "lugar": "Reserva Natural de La Pampa, Argentina"
 }
+
+
+
+

@@ -3,8 +3,11 @@ Authorization: Token 7939d2aefc22439bbf16da778c2c2628
 Content-Type: application/json
 
 {
-    "id": 2,
-    "titulo": "Contenido del nuevo título de la noticia",
-    "contenido": "Nuevo contenido de la noticia"
+    "id": 1,
+    "titulo": "Pelea entre Avatar y Gulliver, motivo: Cruella de Vil",
+    "contenido": "Un inusual enfrentamiento ha ocurrido entre dos gigantes de diferentes mundos: Avatar, el maestro del aire y héroe del mundo de los elementos, y Gulliver, el famoso viajero conocido por sus aventuras en Lilliput y Brobdingnag. La disputa, que se llevó a cabo en la llanura de las Montañas Azules, fue provocada por la maquiavélica Cruella de Vil.\n\nSegún los informes, Cruella intentó manipular a ambos héroes para que se enfrentaran, difundiendo rumores y engaños acerca de supuestas traiciones y faltas de respeto. Su objetivo era crear suficiente caos para poder robar una poderosa gema mística que se encontraba en posesión de Avatar.\n\nEl combate fue épico, con Gulliver utilizando su imponente tamaño para intentar dominar a Avatar, mientras este último aprovechaba su maestría en el control del aire y otros elementos para igualar las condiciones. Afortunadamente, antes de que la pelea se intensificara, ambos se dieron cuenta de la manipulación de Cruella y decidieron unir fuerzas para detenerla.",
+    "conclusion": "El incidente entre Avatar y Gulliver, aunque inicialmente provocado por engaños, resultó en una nueva alianza que promete traer paz y cooperación entre sus respectivos mundos. Cruella de Vil fue capturada y su plan, frustrado, resaltando una vez más que la cooperación y la comunicación son esenciales para superar el conflicto.",
+    "lugar": "Montañas Azules"
+
 
 }
